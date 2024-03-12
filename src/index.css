@@ -121,12 +121,18 @@ nav img{
   margin-left: 5px;
   height: 40px;
 }
-/* home */
-#imagen-principal{
-  width: 100%;
+
+
+.site-title{
+  margin-left: 5px;
 }
 
-#imagen-principal img{
-  width: 100%;
-  height: 450px;
+.ComprarButton{
+  background-color: rgb(40, 109, 189);
+  border-radius: 5px;
+  color: white;
+}
+
+.ComprarButton:hover{
+  background-color: rgb(57, 189, 40);
 }

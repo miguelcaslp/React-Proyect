@@ -1,5 +1,5 @@
 import React from 'react';
-import { addItemToCart}  from '../data/ShopingCart'
+import { addItemToCart } from '../data/ShopingCart'
 
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -18,18 +18,18 @@ const HomeCard = ({ product }) => {
       draggable: true,
       progress: undefined,
       theme: "light",
-      });
+    });
   };
 
-  
+
 
   return (
     <div className="card-home">
-      <img src={product.image}  />
+      <img src={product.image} />
       <div className="card-home-body">
         <h3>{product.title}</h3>
         <p>{product.description}</p>
-        <button onClick={handleClick} >Comprar</button>
+        <button className='ComprarButton' onClick={handleClick} >Añadir a la Cesta</button>
         <ToastContainer />
       </div>
     </div>
