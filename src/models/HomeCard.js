@@ -29,7 +29,9 @@ const HomeCard = ({ product }) => {
       <div className="card-home-body">
         <h3>{product.title}</h3>
         <p>{product.description}</p>
+        <p >{product.precio}€</p>
         <button className='ComprarButton' onClick={handleClick} >Añadir a la Cesta</button>
+
         <ToastContainer />
       </div>
     </div>
